@@ -1,0 +1,14 @@
+export FOO="profile"
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+  if [ -f ~/.profile ]; then
+    . ~/.profile
+  fi
+fi
+
+mesg n 2> /dev/null || true
+
+PATH=$PATH:$PWD/bin
+PS1="\033[32m${USER}\033[0m@\033[34m\h \033[33m\\W\033[0m $ "

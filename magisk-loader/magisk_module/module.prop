@@ -1,0 +1,7 @@
+id=yxos_shell
+name=云溪起源安卓命令行补全计划
+version=v1.0.0
+versionCode=1
+author=@唐溪
+description=目前已有工具[aria2c bash  htop lighttpd lsof ncursesw6-config]
+updateJson=https://raw.githubusercontent.com/JingMatrix/LSPosed/main/magisk-loader/update/zygisk.json

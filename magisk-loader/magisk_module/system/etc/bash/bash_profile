@@ -1,0 +1,6 @@
+if [ -f /system/etc/bash/bashrc ]; then
+	source /system/etc/bash/bashrc
+fi
+if [ -f /system/etc/bash/profile ]; then
+	source /system/etc/bash/profile
+fi
