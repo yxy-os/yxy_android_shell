@@ -5,12 +5,7 @@ fi
 if [ -f /system/etc/bash/profile ]; then
 	source /system/etc/bash/profile
 fi
-if [ -f /system/etc/aria2/aria2.conf ] && [ -z $(losf -i :6800 ]; then
-    aria2c --conf-path=/system/etc/aria2/aria2.conf -D
-fi
-if [ -d /system/etc/lighttpd/www ] && [ -z $(lsof -i :80) ]; then
-    lighttpd -f /system/etc/lighttpd/lighttpd.conf
-fi
+alias lsof='lsof -w'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias grep='grep --color=auto'
