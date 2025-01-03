@@ -1,7 +1,7 @@
 id=yxyos_shell
 name=云溪起源安卓命令行补全计划
-version=v1.0.3
-versionCode=3
+version=v1.0.4
+versionCode=4
 author=@唐溪
-description=目前已有工具[aria2c bash  htop lighttpd lsof ncursesw6-config]
+description=目前已有工具[aria2c bash zsh htop lighttpd lsof ncursesw6-config]
 updateJson=https://raw.githubusercontent.com/yxy-os/yxy_android_shell/main/magisk-loader/update/zygisk.json
